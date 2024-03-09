@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './EcommerseSlider.css';
+import Tiger from "./tiger.png"
 
 const EcommerseSlider = () => {
   const [active, setActive] = useState(0);
@@ -37,25 +38,25 @@ const EcommerseSlider = () => {
     <div className="slider">
       <div className="list">
         <div className="item">
-          <img className='img-50' src="https://github.com/HoanghoDev/slider_blur/blob/main/img/1.png?raw=true" alt="Slide 1" />
+          <img className='img-50' src={Tiger} alt="Slide 1" />
         </div>
         <div className={`item ${active === 1 ? 'active' : ''}`}>
-          <img src="https://github.com/HoanghoDev/slider_blur/blob/main/img/2.png?raw=true" alt="slide 2" />
+          <img src={Tiger} alt="slide 2" />
         </div>
         <div className="item">
-          <img src="https://github.com/HoanghoDev/slider_blur/blob/main/img/3.png?raw=true" alt="Slide 3" />
+          <img src={Tiger} alt="Slide 3" />
         </div>
         <div className="item">
-          <img src="https://github.com/HoanghoDev/slider_blur/blob/main/img/4.png?raw=true" alt="Slide 4" />
+          <img src={Tiger} alt="Slide 4" />
         </div>
         <div className="item">
-          <img src="https://github.com/HoanghoDev/slider_blur/blob/main/img/5.png?raw=true" alt="Slide 5" />
+          <img src={Tiger} alt="Slide 5" />
         </div>
       </div>
       <div className="circle">{circleText}</div>
       <div className="content">
-        <div>menu</div>
-        <div>restaurant</div>
+        <div>tuger</div>
+        <div>animal</div>
         {/* <button>See More</button> */}
       </div>
       <div className="arow">

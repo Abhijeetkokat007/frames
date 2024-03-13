@@ -1,0 +1,52 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+.all-card-div {
+  display: flex;
+  padding: 2rem 2rem 2rem 1rem;
+  width: 90%;
+  height: 40vh;
+  background-color: green;
+  overflow: hidden;
+}
+.card-div {
+  width: 33%;
+  overflow: hidden;
+  position: relative;
+  /* border-radius: 5px; */
+}
+
+.in-card-div-img img:nth-child(1) {
+  left: 0.8rem;
+}
+
+.in-card-div-img img {
+  left: 25rem;
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.all-card-div .not-first {
+  padding: 2.5rem 2rem 2rem 1rem;
+}
+.first-zoom {
+  height: 200%;
+  width: 38%;
+}
+.first-zoom .first-imgs img {
+  width: 380px;
+  height: 280px;
+}
+
+/* .in-card-div-img h1:nth-child(1) {
+  left: 5rem;
+}
+.in-card-div-img h1 {
+  left: 15vw;
+  position: absolute;
+} */

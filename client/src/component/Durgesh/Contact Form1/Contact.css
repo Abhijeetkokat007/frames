@@ -1,0 +1,144 @@
+.main-contact-us {
+  margin-top: 2rem;
+  width: 98%;
+  padding: 1rem 1rem;
+  background-color: whitesmoke;
+}
+.main-contact-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-contact-heading h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 2rem 0;
+  border-bottom: 2px solid;
+  /* border-image: linear-gradient(90deg, #dadadacb 20%, #323232b7 100%); */
+  border-image: linear-gradient(90deg, #fffffffe 10%, #862d86 100%);
+  border-image-slice: 1;
+}
+
+.in-main-contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.left-in-main img {
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.right-in-main {
+  background: #fff;
+  width: 50%;
+  margin-left: 2rem;
+  padding: 1rem 3.5rem;
+  border-radius: 8px;
+  box-shadow: 5px 5px 2rem 2px #dadada42;
+}
+.name-div,
+.email-div,
+.message-div {
+  margin: 2rem 0;
+}
+.writing-block input {
+  width: 28vw;
+  font-size: 18px;
+  padding: 0.4rem 0 0.4rem 0.6rem;
+  /* outline: 1px solid #a7a7a77c; */
+  outline: 2px solid #862d86;
+  border-radius: 5px;
+  border: none;
+}
+
+.writing-block-message textarea {
+  padding: 0.5rem 0 0.5rem 0.6rem;
+  width: 28vw;
+  height: 5rem;
+  outline: 2px solid #862d86;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+.message-button button {
+  padding: 0.8rem 2rem;
+  /* background-image: linear-gradient(90deg, #ffffff 10%, #862d86 100%); */
+  border: none;
+  color: #fff;
+  background: #862d86;
+  border-radius: 5px;
+}
+.message-button button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px 1px #862d86;
+}
+.req-text {
+  font-size: 20px;
+}
+.star {
+  color: red;
+  font-size: 16px;
+}
+
+.after-submission {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #862d86;
+}
+@media screen and (max-width: 480px) {
+  .main-contact-us {
+    padding: 0.2rem;
+    padding-top: 1rem;
+  }
+  .main-contact-heading {
+    text-align: center;
+  }
+  .writing-block input {
+    width: 70vw;
+  }
+  .writing-block-message textarea {
+    width: 70vw;
+  }
+  .in-main-contact-us {
+    padding: 0.2rem;
+    flex-wrap: wrap;
+  }
+  .right-in-main {
+    margin: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 3rem;
+    padding: 0.8rem 3rem 0.8rem 2rem;
+    width: 100%;
+  }
+  .left-in-main img {
+    width: 330px;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-contact-heading {
+    text-align: center;
+  }
+  .in-main-contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .right-in-main {
+    margin-top: 2rem;
+    width: 100%;
+    margin-left: 0;
+  }
+  .writing-block input {
+    width: 67vw;
+  }
+  .writing-block-message textarea {
+    width: 67vw;
+  }
+}
